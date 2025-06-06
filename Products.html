@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="productStyle.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div id="imageContainer">
+            <img
+            src="images/logo.png"
+            height="150px"
+            />
+            <h2>Hone your setup</h2>
+        </div>
+        <nav>
+            <a href="Home.html" class="navigation">Home</a>
+            <a href="Products.html" class="navigation">Products</a>
+        </nav>
+    </header>
+    <label for="computer">Choose a part: </label>
+    <select name="computer" id="computer">
+        <option>Select...</option>
+        <option value="All">All</option>
+        <option value="CPU">CPU</option>
+        <option value="GPU" >GPU</option>
+        <option value="Motherboard">Motherboard</option>
+    </select>
+
+    <div id="displayContainer"></div>
+    <script src="products.js"></script>
+    <script src="favorites.js"></script>
+</body>
+</html>

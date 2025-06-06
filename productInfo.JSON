@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "title": "Intel Core i9-13900K",
+    "price": 589.99,
+    "description": "High-end 13th Gen processor with 24 cores for top-tier performance.",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/150",
+    "rating": { "rate": 4.9, "count": 1120 }
+  },
+  {
+    "id": 2,
+    "title": "AMD Ryzen 9 7950X",
+    "price": 599.99,
+    "description": "Top-of-the-line AMD processor for gamers and creators.",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/150",
+    "rating": { "rate": 4.8, "count": 990 }
+  },
+  {
+    "id": 3,
+    "title": "Intel Core i7-13700K",
+    "price": 419.99,
+    "description": "Powerful 16-core processor with impressive multitasking ability.",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/150",
+    "rating": { "rate": 4.7, "count": 875 }
+  },
+  {
+    "id": 4,
+    "title": "AMD Ryzen 7 7700X",
+    "price": 349.99,
+    "description": "8-core Zen 4 CPU ideal for gaming and productivity.",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/150",
+    "rating": { "rate": 4.6, "count": 810 }
+  },
+  {
+    "id": 5,
+    "title": "Intel Core i5-13600K",
+    "price": 319.99,
+    "description": "Balanced CPU with 14 cores for mid-range performance.",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/150",
+    "rating": { "rate": 4.7, "count": 650 }
+  },
+  {
+    "id": 6,
+    "title": "NVIDIA GeForce RTX 4090",
+    "price": 1599.99,
+    "description": "Flagship graphics card for 4K gaming and AI workloads.",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/150",
+    "rating": { "rate": 4.9, "count": 1020 }
+  },
+  {
+    "id": 7,
+    "title": "NVIDIA GeForce RTX 4080",
+    "price": 1199.99,
+    "description": "High-end GPU with excellent ray tracing performance.",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/150",
+    "rating": { "rate": 4.7, "count": 880 }
+  },
+  {
+    "id": 8,
+    "title": "AMD Radeon RX 7900 XTX",
+    "price": 999.99,
+    "description": "Powerful RDNA 3 GPU for high-resolution gaming.",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/150",
+    "rating": { "rate": 4.6, "count": 830 }
+  },
+  {
+    "id": 9,
+    "title": "NVIDIA GeForce RTX 4070 Ti",
+    "price": 799.99,
+    "description": "Upper mid-range GPU with excellent power efficiency.",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/150",
+    "rating": { "rate": 4.6, "count": 740 }
+  },
+  {
+    "id": 10,
+    "title": "AMD Radeon RX 7800 XT",
+    "price": 649.99,
+    "description": "Strong performance at 1440p with lower power consumption.",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/150",
+    "rating": { "rate": 4.5, "count": 690 }
+  },
+  {
+    "id": 11,
+    "title": "ASUS ROG Strix Z790-E",
+    "price": 399.99,
+    "description": "Feature-rich Z790 motherboard with WiFi 6E and DDR5.",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/150",
+    "rating": { "rate": 4.8, "count": 910 }
+  },
+  {
+    "id": 12,
+    "title": "MSI MAG B650 Tomahawk",
+    "price": 229.99,
+    "description": "AM5 motherboard with PCIe 5.0 support and solid VRMs.",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/150",
+    "rating": { "rate": 4.7, "count": 840 }
+  },
+  {
+    "id": 13,
+    "title": "Gigabyte Z690 AORUS Master",
+    "price": 369.99,
+    "description": "Top-tier Intel 12th-gen motherboard with premium features.",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/150",
+    "rating": { "rate": 4.6, "count": 780 }
+  },
+  {
+    "id": 14,
+    "title": "ASRock B550M Steel Legend",
+    "price": 149.99,
+    "description": "Reliable and affordable B550 motherboard for AM4 CPUs.",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/150",
+    "rating": { "rate": 4.5, "count": 670 }
+  },
+  {
+    "id": 15,
+    "title": "MSI MEG X670E ACE",
+    "price": 499.99,
+    "description": "Extreme motherboard for Ryzen 7000 series with DDR5.",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/150",
+    "rating": { "rate": 4.9, "count": 720 }
+  },
+  {
+    "id": 16,
+    "title": "AMD Ryzen 5 7600X",
+    "price": 289.99,
+    "description": "6-core Zen 4 processor for budget-friendly builds.",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/150",
+    "rating": { "rate": 4.6, "count": 570 }
+  },
+  {
+    "id": 17,
+    "title": "Intel Core i5-12400F",
+    "price": 189.99,
+    "description": "Solid budget gaming CPU with great value.",
+    "category": "CPU",
+    "image": "https://via.placeholder.com/150",
+    "rating": { "rate": 4.7, "count": 690 }
+  },
+  {
+    "id": 18,
+    "title": "Gigabyte B660M DS3H",
+    "price": 119.99,
+    "description": "Micro ATX Intel motherboard with essential features.",
+    "category": "Motherboard",
+    "image": "https://via.placeholder.com/150",
+    "rating": { "rate": 4.4, "count": 610 }
+  },
+  {
+    "id": 19,
+    "title": "NVIDIA GeForce RTX 3060 Ti",
+    "price": 399.99,
+    "description": "Popular mid-range GPU for 1080p/1440p gaming.",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/150",
+    "rating": { "rate": 4.8, "count": 950 }
+  },
+  {
+    "id": 20,
+    "title": "AMD Radeon RX 6700 XT",
+    "price": 379.99,
+    "description": "Strong performer at 1440p with 12GB VRAM.",
+    "category": "GPU",
+    "image": "https://via.placeholder.com/150",
+    "rating": { "rate": 4.6, "count": 720 }
+  }
+]

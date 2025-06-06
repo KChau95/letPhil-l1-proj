@@ -1,0 +1,24 @@
+#displayContainer{
+    border: 5px black solid;
+    width: 200px;
+    align-content: center;
+    text-align: center;
+}
+
+#favCardContainer{
+    font-size: 15px;
+    text-align: center;
+}
+
+#favoriteDisplay{
+    margin-top: 30px;
+    border: 2px solid black;
+    overflow: scroll;
+    height: 500px;
+}
+
+#favoriteText{
+    font-size: 30px;
+    text-align: center;
+
+}

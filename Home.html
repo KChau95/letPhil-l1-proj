@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Product Showcase</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="cardStyle.css" rel="stylesheet">
+    <link href="favoriteStyle.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div id="imageContainer">
+            <img
+            src="images/logo.png"
+            height="150px"
+            />
+            <h2>Hone your setup</h2>
+        </div>
+            <nav>
+                <a href="Home.html" class="navigation">Home</a>
+                <a href="Products.html" class="navigation">Products</a>
+            </nav>
+        
+        <aside>
+            <label for="username" type="text">Username:</label>
+            <input type="text" placeholder="username" id="username">
+            <label for="password" type="password">Password:</label>
+            <input type="password" placeholder="password" id="password">
+            <input type="button" value="Submit" class="button">
+            <input type="button" value="Create Account" class="button">
+            <div>
+                <h3 id="favoriteText">Favorites</h3>
+                <div id="favoriteDisplay"></div>
+            </div>
+        </aside>
+    </header>
+    <main>
+         <h2>Product Showcase</h2>
+         <div id="productContainer">
+         </div>
+    </main>
+    <footer>
+        <div id="messageUs">
+            <h4>Product Inquiries</h4>
+            <form>
+                <label for="fName">First Name:</label><br>
+                <input type="text" id="fName" name="fName"><br>
+                <label for="lName">Last Name:</label><br>
+                <input type="text" id="lName" name="lName"><br>
+                <label for="email">Email:</label><br>
+                <input type="text" id="email" name="email"><br>
+                <label for="inquiry">Message:</label><br>
+                <textarea id='msgBox'></textarea><br>
+                <button id="confirmBtn">Send</button>
+            </form>
+        </div>
+        <h5>Created by Kevin</h5>
+    </footer>
+    <script src="script.js"></script>
+    <script src="productCard.js"></script>
+    <script src="favorites.js"></script>
+    <script src="products.js"></script>
+</body>
+</html>
