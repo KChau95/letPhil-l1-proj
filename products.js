@@ -1,4 +1,6 @@
 const computer = document.getElementById('computer');
+const search = document.getElementById('search');
+const searchBar = document.getElementById('searchBar');
 
 let favorites = JSON.parse(localStorage.getItem('favoritedProduct')) || [];
 let productList = [];
@@ -21,7 +23,6 @@ const productId = fetch('productInfo.JSON')
 
 
 const renderCard = (products) =>{
-    
     products.forEach (items => {
     const card = document.createElement('div');
     card.innerHTML = `
@@ -59,6 +60,19 @@ const renderCard = (products) =>{
         localStorage.setItem('favoritedProduct', JSON.stringify(favList));
     });});
     });};
+
+search.addEventListener('click', ()=>{
+    if(searchBar.value.length === 0){
+      alert("Need to input something in the box.")
+    }
+    else{
+      displayContainer.innerHTML = ``;
+      newList = productList.filter((item)=>{
+        return item.title.toLowerCase().includes(searchBar.value.toLowerCase()) === true;
+      })
+    }
+    renderCard(newList);
+});
 
 
 

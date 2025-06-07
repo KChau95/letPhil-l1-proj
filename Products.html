@@ -21,14 +21,20 @@
             <a href="Products.html" class="navigation">Products</a>
         </nav>
     </header>
-    <label for="computer">Choose a part: </label>
-    <select name="computer" id="computer">
-        <option>Select...</option>
-        <option value="All">All</option>
-        <option value="CPU">CPU</option>
-        <option value="GPU" >GPU</option>
-        <option value="Motherboard">Motherboard</option>
-    </select>
+    <div>
+        <label for="computer">Choose a part: </label>
+        <select name="computer" id="computer">
+            <option>Select...</option>
+            <option value="All">All</option>
+            <option value="CPU">CPU</option>
+            <option value="GPU" >GPU</option>
+            <option value="Motherboard">Motherboard</option>
+        </select>
+        <label for="searchProduct">Search Part:</label>
+        <input id="searchBar" placeholder="Part Name">
+        <button id="search">Search</button>
+    </div>
+    
 
     <div id="displayContainer"></div>
     <script src="products.js"></script>
