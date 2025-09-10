@@ -1,27 +1,3 @@
-const computer = document.getElementById('computer');
-const search = document.getElementById('search');
-const searchBar = document.getElementById('searchBar');
-
-let favorites = JSON.parse(localStorage.getItem('favoritedProduct')) || [];
-let productList = [];
-let favList = [];
-let newList = [];
-
-computer.addEventListener('change', () => {
-  
-  displayContainer.innerHTML = ``;
-
-  //Ternary Operator to either get whole list or filter with the appropriate value
-  newList = computer.value === 'All' ? productList : productList.filter((product)=> product.category === computer.value);
-
-  renderCard(newList);
-  });
-
-const productId = fetch('productInfo.JSON')
-  .then(response => response.json())
-  .then(products => {productList = products;})
-
-
 let openPopover = null; // track the currently open popover (if any)
 
 function closeOpenPopover() {
@@ -115,28 +91,3 @@ const renderCard = (products) => {
     });
   });
 };
-
-
-    const infoButton = document.querySelectorAll('.infoButton');
-    infoButton.forEach((info, i)=>{
-       info.addEventListener('click', ()=>{
-
-    })
-      });
-
-search.addEventListener('click', ()=>{
-    if(searchBar.value.length === 0){
-      alert("Need to input something in the box.")
-    }
-    else{
-      displayContainer.innerHTML = ``;
-      newList = productList.filter((item)=>{
-        return item.title.toLowerCase().includes(searchBar.value.toLowerCase()) === true;
-      })
-    }
-    renderCard(newList);
-});
-
-
-
- 
